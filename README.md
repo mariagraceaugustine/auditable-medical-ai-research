@@ -28,6 +28,12 @@ The following exploratory results were obtained on the OrganAMNIST test split (1
 
 The conditional policy invokes verification when the original CNN's confidence is below 0.65 or when it predicts class 6 or 10. If verification is invoked, a prediction is accepted only when both models agree; otherwise, it is deferred for review.
 
+## Research Report
+
+[Read the full research report (PDF)](Auditable_Medical_AI_Research_Report_Neutral.pdf)
+
+This two-page report summarizes the experimental design, results, reliability analysis, limitations, and future research directions.
+
 ## Key Findings
 
 - Conditional verification reduced verifier calls relative to always verifying, while maintaining 92.22% accuracy among accepted predictions.
